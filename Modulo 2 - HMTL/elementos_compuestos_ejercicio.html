@@ -1,0 +1,43 @@
+<! DOCTYPE html>
+<html lang="en">
+<cabeza>
+
+<!-- Tipos de entradas (inputs)-->
+ <!--Entrada tipo texto-->
+  <!-- "id" y "name" permiten identificar el campo al que nos referimos en backend o para procesarlo despues -->
+   <input type="text" id="Input1" name="Input1">
+
+  <!-- "label" permite etiquetar un elemento, la pocision varia dependiendo de la legibilidad de lectura que queramos brindar -->
+  <!--El input de texto identificado como "Input1" tendra ina etiqueta llamada "Ejemplo de input de texto"-->
+   <label for="Input1"> Ejemplo de input de texto </label>
+ 
+ <!--Entrada tipo texto de correo-->
+  <!--Valida que la informacion dentro dle input tenga un formato de correo: arroba, punto, etc. de lo contrario indicara correo invalido por medio de JavaScipt-->
+   <h2> Input de correo </h2>
+       <input type="email id="correo1" name="correo1"><br><br>
+
+ <!--Entrada tipo texto de numero-->
+  <!--Valida que solo se puedan ingresar datos de tipo numero y no letras-->
+   <label for="numero1"> Input de numero </label><br>
+   <input type="number" id="numero1" name="numero1"><br><br>
+
+ <!--Entrada tipo texto de password-->
+  <!--El input de tipo password oculta la informacion para que no se muestre-->
+   <label for="psw1"> Input de Password </label><br>
+   <input type="password" id="psw1" name="psw1"><br><br>
+
+ <!--Entrada tipo texto de telefono-->
+  <!--El input de telefono valida que unicamente puedas ingresar 10 digitos por medio del maxlength="10".-->
+   <label for=""tell"> Input de Telefono </label><br>
+   <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+ <!--Entrada tipo texto de URL-->
+  <!--Valida que la URL tenga ciertas caracteristicas, identifica que sea valida-->
+   <label for="url1"> Input de URL</label><br>
+   <input type="url" id="url1" name="url1"><br><br>
+  
+</cuerpo>
+</html>
+
+<!--Recuerda, únicamente se valida si cumple con el formato que estableciste en el código, más no si el número existe o la URL.-->
+
